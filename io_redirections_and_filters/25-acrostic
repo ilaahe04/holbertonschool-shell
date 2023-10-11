@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1-1 file
+cut -c1 | tr -d '\n'| fmt
